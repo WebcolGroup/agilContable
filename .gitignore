@@ -1,0 +1,37 @@
+# Logs
+*.log
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Environment files
+.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Cache and temporary files
+*.cache
+*.tmp
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# PHP specific
+phpunit.xml
+phpunit.xml.dist
+
+# Composer
+composer.lock
+
+# Other
+/public/uploads/
+/public/storage/
